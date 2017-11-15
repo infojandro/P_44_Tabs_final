@@ -20,7 +20,7 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
         <android.support.design.widget.TabLayout
-            android:id="@+id/tabla"
+            android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
