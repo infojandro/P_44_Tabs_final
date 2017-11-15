@@ -1,13 +1,14 @@
 <resources>
     <string name="app_name">P_44_Tabs</string>
     <string name="action_settings">Settings</string>
-    <!--
+
      <array name="opciones">
          <string name="texto_zgz">Zaragoza</string>
          <string name="texto_huesca">huesca</string>
          <string name="texto_teruel">Teruel</string>
      </array>
- -->
-     <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="texto">soy un texto de barcelona</string>
 </resources>

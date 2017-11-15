@@ -7,25 +7,24 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class BlankFragment extends Fragment {
+public class BlankFragment2 extends Fragment {
 
     private static final String ARG_NUM_TAB = "numTab";
     private String mNumTab;
 
-    public BlankFragment() {
+    public BlankFragment2() {
     }
-    public static BlankFragment newInstance(String param1) {
-        BlankFragment fragment = new BlankFragment();
+    public static BlankFragment2 newInstance(String param1) {
+        BlankFragment2 fragment2 = new BlankFragment2();
         Bundle args = new Bundle();
         args.putString(ARG_NUM_TAB, param1);
-        fragment.setArguments(args);
-        return fragment;
+        fragment2.setArguments(args);
+        return fragment2;
     }
 
     @Override
@@ -41,8 +40,7 @@ public class BlankFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_blank, container, false);
-        TextView textView = (TextView) view.findViewById(R.id.textView);
-        textView.setText(getString(R.string.texto, mNumTab));
+
         return view;
     }
 
