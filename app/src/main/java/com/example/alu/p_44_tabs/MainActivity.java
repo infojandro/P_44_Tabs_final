@@ -18,10 +18,10 @@ import android.view.MenuItem;
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
-            Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+            Toolbar toolbar =findViewById(R.id.toolbar);
             setSupportActionBar(toolbar);
 
-            FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+            FloatingActionButton fab =findViewById(R.id.fab);
             fab.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -29,9 +29,9 @@ import android.view.MenuItem;
                             .setAction("Action", null).show();
                 }
             });
-            ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
+            ViewPager viewPager =findViewById(R.id.viewPager);
             viewPager.setAdapter(new MiFragmentPagerAdapter(getSupportFragmentManager(),getApplicationContext()));
-            TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+            TabLayout tabLayout =findViewById(R.id.tabs);
             tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
             tabLayout.setupWithViewPager(viewPager);
         }

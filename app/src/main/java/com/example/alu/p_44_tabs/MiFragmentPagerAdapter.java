@@ -26,13 +26,13 @@ public class MiFragmentPagerAdapter extends FragmentPagerAdapter {
        Fragment f=null;
        switch(position){
            case 0:
-               f=BlankFragment.newInstance(textosTab[position]);
+               f=BlankFragment2.newInstance(textosTab[position]);
                break;
            case 1:
                f=BlankFragment.newInstance(textosTab[position]);
                break;
            case 2:
-               f=BlankFragment.newInstance(textosTab[position]);
+               f=BlankFragment2.newInstance(textosTab[position]);
                break;
 
        }
