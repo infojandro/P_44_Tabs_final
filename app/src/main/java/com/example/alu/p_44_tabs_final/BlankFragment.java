@@ -35,7 +35,7 @@ public class BlankFragment extends Fragment {
             mNumTab = getArguments().getString(ARG_NUM_TAB);
         }
     }
-    @SuppressLint("StringFormatInvalid")
+    @SuppressLint("StringFormatInvalid") 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
