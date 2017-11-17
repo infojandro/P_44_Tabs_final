@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.alu.p_44_tabs"
+        applicationId "com.example.alu.p_44_tabs_final"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1

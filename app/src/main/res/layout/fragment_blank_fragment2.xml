@@ -4,7 +4,7 @@
     android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.alu.p_44_tabs.BlankFragment2">
+    tools:context="com.example.alu.p_44_tabs_final.BlankFragment2">
 
     <!-- TODO: Update blank fragment layout -->
 

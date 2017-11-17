@@ -1,4 +1,4 @@
-package com.example.alu.p_44_tabs;
+package com.example.alu.p_44_tabs_final;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;

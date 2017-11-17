@@ -1,4 +1,4 @@
-package com.example.alu.p_44_tabs;
+package com.example.alu.p_44_tabs_final;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.alu.p_44_tabs", appContext.getPackageName());
+        assertEquals("com.example.alu.p_44_tabs_final", appContext.getPackageName());
     }
 }

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">P_44_Tabs</string>
+    <string name="app_name">P_44_Tabs_final</string>
     <string name="action_settings">Settings</string>
     <string-array name="opciones">
         <item>Zaragoza</item>
